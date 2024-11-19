@@ -40,12 +40,7 @@ npm run dev
 npm install primevue
 ```
 
-### To install PrimeFlex(similar to tailwaind) run the command to install dependencies
-```sh
-npm install primefelx
-```
-
-### Setup main.js as per the steps in PrimeVue Documentation(https://primevue.org/setup/)
+### Setup main.js as per the steps in PrimeVue Documentation,refer official webiste(https://primevue.org/setup/)
 
 ```sh
 import './assets/main.css'
@@ -64,6 +59,15 @@ const vueApp = createApp(App).use(PrimeVue, {
     }
 });
 vueApp.mount("#app");
-
-
 ```
+
+### To install PrimeFlex(similar to tailwaind) run the command to install dependencies, refer officil website(https://primeflex.org/installation)
+```sh
+npm install primefelx
+```
+
+### To use icons in the application we can integrate PrimeIcons, using the command, refer official website(https://primeng.org/icons)
+```sh
+npm install primeicons
+```
+ 
