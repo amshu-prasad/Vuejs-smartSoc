@@ -2,12 +2,10 @@
 This template should help get you started developing with Vue 3 in Vite.
 
 ### Create a Vue Project using the command
-
 ```sh
 npm create vue@latest
 ```
 ### Setup the following as per the requirement
-
 ```sh
 ✔ Project name: … <your-project-name>
 ✔ Add TypeScript? … No / Yes
@@ -22,17 +20,17 @@ npm create vue@latest
 ```
 
 ### Go to your current project
-
 ```sh
 cd <your-project-name>
 ```
 
 ### Install dependencies
-
 ```sh
 npm install
 ```
 
 
 ### The Project is Setup successfully, now run the command
+```sh
 npm run dev
+```
