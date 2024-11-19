@@ -45,7 +45,7 @@ npm install primevue
 npm install primefelx
 ```
 
-### Setup main.js as per the steps in PrimeVue Documentation
+### Setup main.js as per the steps in PrimeVue Documentation(https://primevue.org/setup/)
 
 ```sh
 import './assets/main.css'
@@ -64,4 +64,6 @@ const vueApp = createApp(App).use(PrimeVue, {
     }
 });
 vueApp.mount("#app");
+
+
 ```
