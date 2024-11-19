@@ -1,10 +1,8 @@
 # DemoForm
-
 This template should help get you started developing with Vue 3 in Vite.
 
-## Project Setup
+### Create a Vue Project using the command
 
-## Create a Vue Project using the command
 ```sh
 npm create vue@latest
 ```
@@ -21,11 +19,20 @@ npm create vue@latest
 ✔ Add ESLint for code quality? … No / Yes
 ✔ Add Prettier for code formatting? … No / Yes
 ✔ Add Vue DevTools 7 extension for debugging? (experimental) … No / Yes
-
 ```
 
-### Compile and Minify for Production
+### Go to your current project
 
 ```sh
-npm run build
+cd <your-project-name>
 ```
+
+### Install dependencies
+
+```sh
+npm install
+```
+
+
+### The Project is Setup successfully, now run the command
+npm run dev
