@@ -34,3 +34,34 @@ npm install
 ```sh
 npm run dev
 ```
+
+### To install PrimeVue(similar to bootstrap) run the command to install dependencies
+```sh
+npm install primevue
+```
+
+### To install PrimeFlex(similar to tailwaind) run the command to install dependencies
+```sh
+npm install primefelx
+```
+
+### Setup main.js as per the steps in PrimeVue Documentation
+
+```sh
+import './assets/main.css'
+import { createApp } from 'vue'
+import App from './App.vue'
+import PrimeVue from 'primevue/config';
+import Aura from '@primevue/themes/aura';
+
+
+const vueApp = createApp(App).use(PrimeVue, {
+    theme: {
+        preset: Aura,
+        options: {
+            darkModeSelector: false,
+        }
+    }
+});
+vueApp.mount("#app");
+```
